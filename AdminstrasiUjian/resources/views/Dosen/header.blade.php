@@ -13,6 +13,40 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script>
+		Highcharts.chart('highChartGD7', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Kapasistas Ruangan'
+    },
+    subtitle: {
+        text: 'Institut Teknologi Del'
+    },
+    xAxis: {
+        categories: {!! json_encode($array_ruangan) !!},
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Kapasitas(mahasiswa)'
+        }
+    },
+    
+    series: [{
+        name: 'ruangan',
+        data: {!! json_encode($kapasitas) !!}
+
+    }]
+});
+
+</script>
+
+
+ 
     <style>
      .error{ color:red; } 
     </style>

@@ -201,17 +201,17 @@ class RequestDosenController extends Controller
     public function hapus_requestdosenStaff($id){
             $request = RequestDosen::where('id',$id)           
             ->update([
-                'req_status' => 1,      
+                'req_status_staff' => 1,      
               ]);
               $req = RequestDosen::where('status',0)->get();
               if ($request) {
                 $notif = array(
-                    'message'    => 'Request Anda Berhasil di Kirimkan',
+                    'message'    => 'Data Berhasil Dihapus',
                     'alert-type' => 'success'
                 );      
             } else {
                 $notif = array(
-                    'message'    => 'Data Yang anda Masukkan Salah',
+                    'message'    => 'Data Gagal Di hapus',
                     'alert-type' => 'error'
                 );  
             }
