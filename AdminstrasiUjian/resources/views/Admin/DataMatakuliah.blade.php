@@ -71,7 +71,7 @@
                 <form action="{{url('/DataMatakuliah')}}"  method="post">
                     @csrf
                         <div class="form-group required">
-                            @if($errors->has('kode_mk'))
+                      	     @if($errors->has('kode_mk'))
                                 <div class="alert alert-danger" role="alert">{{ $errors->first('kode_mk') }}</div>
                             @endif
                         <label for="inputName">Kode Matakuliah</label>

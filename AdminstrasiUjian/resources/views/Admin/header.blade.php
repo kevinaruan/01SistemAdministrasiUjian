@@ -26,7 +26,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span></button>
 					<img src="">
-				<a href="" class="logo navbar-brand"><span><img style="width: 100px;" src=" {{url('/gambar/baru.png')}}" ></a></span>
+				<a href="" class="logo navbar-brand"><span><img style="width: 120px;" src=" {{url('/gambar/baru.png')}}" ></a></span>
 				<a class="navbar-brand" href="#"><span>Administrasi Ujian IT Del</a>
 
 					</li>

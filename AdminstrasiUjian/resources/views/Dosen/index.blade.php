@@ -8,11 +8,16 @@
 				<li class="active">Dashboard</li>
 			</ol>
 		</div><!--/.row-->
-			<div class="col-lg-12" style="background-color: none;">
+			<div class="col-lg-12" style="background-color: none;" >
 					<div class="col-lg-12" style="text-align: center;margin-top: 5%;padding: 10px;">
 						<div class="col-lg-9" style="height: 200px;">
-							<h2>SELAMAT DATANG DI SISTEM ADMINISTRASI UJIAN INSTITUT TEKNOLOGI DEL</h2>
+							<div id="highChartGD7" class="col-lg-12"></div>
+							
+							
+							
 						</div>
+
+
 						<div class="col-lg-3" style="min-height: 200px;padding-left: 20px;">
 							<h1 class="page-header" style="font-size:1.3em;font-family: Segoe UI;float: left;"><em class="fa fa-history"></em>&nbsp; History</h1>
 							<div class="col-lg-12" style="margin-top: 12px;">
@@ -37,4 +42,6 @@
 			
 		</div><!-- /.row -->
 	</div><!--/.main-->
-    @include('Dosen.footer')
+	
+	@include('Dosen.footer')
+	
