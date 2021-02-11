@@ -1,4 +1,4 @@
--Berikut penjelasan mengenai tools yang digunakan dan bagaimana menjalankannya-
+Berikut penjelasan mengenai tools yang digunakan dan bagaimana menjalankannya-
 Tools yang digunakan :
 1. Xampp
 2. Web Browser 
