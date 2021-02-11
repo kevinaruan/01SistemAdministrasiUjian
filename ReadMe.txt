@@ -14,5 +14,13 @@ Namun, ada beberapa yang perlu diketahui :
 Pada saat membuka aplikasi melalui localhost, yang akan ditampilkan pertama ialah role pada Admin.
 Maka, untuk membuka role dosen ataupun staf BAA, ada baiknya melihat username dan password pada role Admin.
 Atau, kita bisa menambahkan pengguna baru untuk dosen dan staf BAA. 
-   
- 
+
+This Project Develop By:
+1. Kiki Ferawati S
+2. Risa Jessica S
+3. Martin Simanjuntak
+4. Kevin Martua A
+5. Gabriella Naibaho
+
+THANKYOU :)
+
